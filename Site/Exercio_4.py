@@ -15,5 +15,5 @@ if(LadoA + LadoB > LadoC and (LadoA + LadoC > LadoB) and (LadoB + LadoC > LadoA)
     elif(LadoA != LadoB) or (LadoA != LadoC) or (LadoC != LadoB):
         print("É um triângulo escaleno")
         
-    else:
-        print("Não é um triângulo")
+else:
+    print("Não é um triângulo")
