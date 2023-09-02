@@ -1,5 +1,5 @@
 #Salário mensal
-salario_hora = float(input("Digite quantoo você ganha/hora "))
+salario_hora = float(input("Digite quanto você ganha/hora "))
 horas_trabalhadas_mes= float(input("Horas trabalhadas/mês "))
 
 salario_total = salario_hora * horas_trabalhadas_mes
