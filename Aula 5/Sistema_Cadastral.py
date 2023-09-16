@@ -18,7 +18,7 @@ class SistemaCadastral:
         
     def __indicar_erro(self) -> None:
         print("dados invalidos!")
-        
+ # No terminal       
 from Sistema_Cadastral import SistemaCadastral
 sis = SistemaCadastral()
 sis.cadastrar("Yago", 23)

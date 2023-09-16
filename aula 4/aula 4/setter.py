@@ -1,15 +1,15 @@
 class Pessoa:
     
-    def __init__(self, nome, idade):
+    def __init__(self, nome: str, idade: int) -> None:
         self.name = nome
         self.idade = idade
         
-    def dirigir(self, veiculo):
+    def dirigir(self, veiculo: str) -> None:
         print("Dirigindo um(a) {}".format(veiculo))
         
-    def cantar(self):
-        print("Lalala")
+    def cantar(self) -> None:
+        print("Lalalala")
         
-    def apresentar_idade(self):
+    def apresentar_idade(self) -> int:
         return self.idade
         
