@@ -9,7 +9,7 @@ while(c <=9):
         print(b)
     while(b > 9):
         Event().wait(delay)
-        b = b-1
+        b = b-10
         c = c+1
         print(f"c ={c}")
         print(b)
